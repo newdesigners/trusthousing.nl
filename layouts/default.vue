@@ -1,10 +1,8 @@
 <template>
   <div class="container">
-      <header>
-          <h1>TRUSTHOUSING.nl</h1> 
-          <p>bring back trust in the student housing market </p>
-      </header>
+      <Header />
       <Nuxt />
+      <Footer />
   </div>
 </template>
 
@@ -29,7 +27,7 @@ html {
   margin: 0;
 }
 
-header,
+/* header,
 .container {
   width: 100%;
   padding-right: 15px;
@@ -40,7 +38,7 @@ header,
   flex-direction: column;
   align-content: center;
   justify-items: center;
-}
+} */
 .step-card {
   padding: 20px;
   margin: 40px auto;

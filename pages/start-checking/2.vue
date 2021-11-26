@@ -37,7 +37,7 @@
     <div class="step-footer">
     <div class="current-steps">2 / 4</div>
     <!-- <button type="button" class="btn-next" @click="save">Next</button> -->
-    <NuxtLink class="btn-next" to="/check/form-three" @click.native="save">Next</Nuxtlink>
+    <NuxtLink class="btn-next" to="/start-checking/3" @click.native="save">Next</Nuxtlink>
     </div>
     <pre>image: {{ fileList }}</pre>
     <pre>store: {{ this.$store.state.listings.listing }}</pre>

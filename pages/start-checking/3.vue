@@ -53,7 +53,7 @@
     <div class="step-footer">
         <div class="current-steps">3 / 4</div>
         <!-- <button type="button" class="btn-next" @click="save">Next</button> -->
-        <NuxtLink class="btn-next" to="/check/results" @click.native="save">Next</Nuxtlink>
+        <NuxtLink class="btn-next" to="/start-checking/results" @click.native="save">Next</Nuxtlink>
     </div>
     <pre>selected: {{ type }}</pre>
     <pre>property: price: {{ price }} / size: {{ size }} / utilities: {{ utilities }}</pre>

@@ -46,7 +46,8 @@ export default {
   googleFonts: {
     families: {
       Roboto: [400, 500],
-      Poppins: [500, 700],
+      'Suez+One': [400],
+      Poppins: [500, 700], 
     },
     display: 'swap',
     useStylesheet: true,

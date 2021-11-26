@@ -46,7 +46,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: 'Poppins', Arial, sans-serif;
+  font-family: 'Suez One', Arial, sans-serif;
   font-weight: 700;
 }
 
@@ -78,4 +78,8 @@ select {
 /* For IE10 */
 select::-ms-expand {
   display: none;
+}
+
+a.nuxt-link-active[href]:not([href="/"]) {
+  @apply font-bold;
 }
