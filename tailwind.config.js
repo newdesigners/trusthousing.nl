@@ -39,10 +39,10 @@ module.exports = {
           'sans-serif',
           'Arial',
         ],
-        poppins: [
-          'Poppins',
+        suez: [
+          'Suez One',
           'sans-serif',
-          'Arial'
+          'Arial',
         ],
       },
       fontSize: {
