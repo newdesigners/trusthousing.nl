@@ -1,7 +1,7 @@
 <template>
   <div class="container">
       <header>
-          <h1>TrustHousing.nl</h1> 
+          <h1>TRUSTHOUSING.nl</h1> 
           <p>bring back trust in the student housing market </p>
       </header>
       <Nuxt />
