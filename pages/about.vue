@@ -1,8 +1,7 @@
 <template>
   <div class="step-card">
     <form>
-      <h1>Copy paste listing text</h1>
-      <textarea></textarea>
+      <input text="text" name="description" />
     </form>
     <div class="step-footer">
       <div class="current-steps">1 / 4</div>
