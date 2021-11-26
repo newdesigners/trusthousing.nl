@@ -1,0 +1,81 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+html > body > #__nuxt > #__layout {
+  overflow: hidden;
+}
+
+html > body > #__nuxt > #__layout > div {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+svg {
+  height: auto;
+}
+
+html {
+  height: -webkit-fill-available;
+  scroll-behavior: smooth;
+  box-sizing: border-box;
+}
+
+body {
+  position: relative;
+  font-size: 18px;
+  line-height: 27px;
+  font-family: 'Roboto';
+  font-weight: 400;
+  min-height: -webkit-fill-available;
+}
+
+p {
+  font-family: 'Roboto', Arial, sans-serif;
+  font-size: 18px;
+  line-height: 27px;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Poppins', Arial, sans-serif;
+  font-weight: 700;
+}
+
+h1 {
+  font-size: 24px;
+  line-height:36px;
+  /* @apply text-24 lg:text-36; */
+}
+
+h2 {
+  font-size: 20px;
+  line-height: 30px;
+  /* @apply text-20 lg:text-28; */
+}
+
+h3 {
+  font-size: 18px;
+  line-height: 27px;
+  /* @apply text-18 lg:text-24; */
+}
+
+select {
+  /* for Firefox */
+  -moz-appearance: none;
+  /* for Chrome */
+  -webkit-appearance: none;
+}
+
+/* For IE10 */
+select::-ms-expand {
+  display: none;
+}
