@@ -1,9 +1,7 @@
 export const state = () => ({
   listing: {
-    platform: '',
     images: [],
     description: '',
-    city: '',
     property: {
       price: '',
       size: '',
