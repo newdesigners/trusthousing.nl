@@ -1,12 +1,11 @@
 <template>
-  <div class="container">
-    <div>
-      <Logo />
-      <h1>trusthousing.nl</h1>
-      <div>
-        <h2>Hello world</h2>
-        <h3>Hello world</h3>
-      </div>
+  <div class="step-card">
+    <form>
+      <input text="text" name="description" />
+    </form>
+    <div class="step-footer">
+      <div class="current-steps">1 / 4</div>
+      <button type="button" class="btn-next">Next</button>
     </div>
   </div>
 </template>
@@ -16,12 +15,4 @@ export default {};
 </script>
 
 <style>
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-}
 </style>
