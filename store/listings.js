@@ -3,11 +3,11 @@ export const state = () => ({
     platform: '',
     images: [],
     description: '',
-    type: '',
     city: '',
     property: {
-      price: 0,
-      size: 0,
+      price: '',
+      size: '',
+      type: '',
       utilities: false,
     }
   }
