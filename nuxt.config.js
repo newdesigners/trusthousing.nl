@@ -22,6 +22,7 @@ export default {
   css: [
     '@/assets/css/base.css',
     '@/assets/css/step-indicator.css',
+    '@/assets/css/results.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
@@ -46,7 +47,7 @@ export default {
   // Options for @nuxtjs/google-fonts
   googleFonts: {
     families: {
-      Roboto: [400, 500],
+      Roboto: [400, 500, 900],
       'Suez+One': [400],
       Poppins: [500, 700], 
     },

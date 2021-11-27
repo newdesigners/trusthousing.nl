@@ -1,0 +1,28 @@
+.results {}
+
+
+.results-box p:nth-child(even), .results-box ul {
+  padding-bottom: 1.5rem;
+}
+
+.results-box p span {
+  color:red;
+}
+
+.results-box p a {
+  text-decoration: underline;
+}
+
+.results-image-scan .results-box p,
+.results-image-scan .results-box li {
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.results-image-scan .results-box p span {
+  color: inherit;
+}
+
+.results-image-scan .results-box p:nth-child(even) {
+  padding-bottom: inherit;
+}

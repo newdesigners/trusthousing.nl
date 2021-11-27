@@ -49,13 +49,16 @@ module.exports = {
       },
       fontSize: {
         '11': ['11px', { lineHeight: '15px' }],
+        '12': ['12px', { lineHeight: '14px' }],
         '16': ['16px', { lineHeight: '24px' }],
         '18': ['18px', { lineHeight: '27px'}],
         '20': ['20px', { lineHeight: '30px'}],
         '22': ['22px', { lineHeight: '33px'}],
         '24': ['24px', { lineHeight: '36px' }],
         '28': ['28px', { lineHeight: '42px' }],
-        '36': ['36px', { lineHeight: '54px' }],
+        '32': ['32px', { lineHeight: '42px' }],
+        '36': ['36px', { lineHeight: '48px' }],
+        '144': ['144px', { lineHeight: '169px' }],
       },
       width: {
         'initial': 'initial',
