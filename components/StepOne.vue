@@ -1,0 +1,36 @@
+<template>
+  <div class="w-2/3">
+      <form>
+          <h1 class="pb-1">Paste the description from the housing offer</h1>
+          <p class="pb-7">We will check the description for red flags that point to scamming</p>
+          <textarea class="border w-full p-7 h-64 rounded-2xl mb-8" required v-model="description" placeholder="Paste the description of the offer that you found"></textarea>
+      </form>
+      <div class="flex justify-end">
+          <NuxtLink class="rounded-full py-3.5 px-11 bg-black text-white hover:bg-gray-dark" to="/start-checking/2" @click.native="save">Go to step 2</Nuxtlink>
+      </div>
+    
+      <!-- <pre>description: {{ description }}</pre>
+      <pre>store: {{ this.$store.state.listings.listing }}</pre> -->
+  </div>
+</template>
+<script>
+export default {
+    data() {
+        return {
+            description: '',
+        }
+    },
+    mounted() {
+        console.log(this.$route.params);
+        this.description = this.$store.state.listings.listing.description;
+    },
+    methods: {
+        save() {
+            this.$store.commit('listings/setDescription', this.description);
+        },
+    },
+};
+</script>
+
+<style>
+</style>

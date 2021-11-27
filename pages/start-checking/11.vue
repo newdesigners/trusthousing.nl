@@ -26,6 +26,7 @@ export default {
         }
     },
     mounted() {
+        console.log(this.$route.params);
         this.description = this.$store.state.listings.listing.description;
     },
     methods: {
