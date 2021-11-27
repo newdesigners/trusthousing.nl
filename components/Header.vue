@@ -1,5 +1,5 @@
 <template>
-  <header class="container flex justify-between items-center py-5">
+  <header class="container flex justify-between items-center py-8 pb-14">
     <NuxtLink to="/">
       <figure class="flex">
         <div class="pr-7">

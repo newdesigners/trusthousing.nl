@@ -1,5 +1,6 @@
 <template>
-<div class="bg-gray py-20">
+<div class="bg-gray py-20 relative">
+  <StepIndicator class="absolute left-1/2 top-0 transform -translate-y-1/2 -translate-x-1/2" />
   <div class="container w-3/4">
     <StepOne v-if="step ==='1'" />
     <StepTwo v-if="step === '2'" />
