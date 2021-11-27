@@ -12,8 +12,6 @@ module.exports = {
     extend: {
       spacing: {
         'container': "theme(container.padding.DEFAULT)",
-        'container-lg': "theme(container.padding.lg)",
-        'container-xl': "theme(container.padding.xl)",
         '31%': '31%',
         '32%': '32%',
         '48%': '48%',
@@ -31,6 +29,7 @@ module.exports = {
         gray: {
           DEFAULT: '#E5E5E5',
           dark: '#727A87',
+          light: '#F6F6F8',
         },
       },
       fontFamily: {
@@ -60,9 +59,7 @@ module.exports = {
     },
     container: {
       padding: {
-        DEFAULT: '20px',
-        lg: '30px',
-        xl: '40px',
+        DEFAULT: '20px'
       },
       center: true,
     },

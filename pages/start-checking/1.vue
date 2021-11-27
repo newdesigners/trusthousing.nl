@@ -1,17 +1,20 @@
 <template>
-<div class="step-card">
-    <form>
-        <h1>Listing description</h1>
-        <p>The listing description might include obvious red flags that point on the scam. We will check the text for these red flags.</p>
-        <textarea class="border" required v-model="description"></textarea>
-    </form>
-    <div class="step-footer">
-        <div class="current-steps">1 / 4</div>
-        <!-- <button type="button" class="btn-next" @click="save">Next</button> -->
-        <NuxtLink class="underline btn-next" to="/start-checking/2" @click.native="save">Next</Nuxtlink>
+<div class="bg-gray py-20">
+    <div class="container w-3/4">
+        <div class="w-2/3">
+            <form>
+                <h1 class="pb-1">Paste the description from the housing offer</h1>
+                <p class="pb-7">We will check the description for red flags that point to scamming</p>
+                <textarea class="border w-full p-7 h-64 rounded-2xl mb-8" required v-model="description" placeholder="Paste the description of the offer that you found"></textarea>
+            </form>
+            <div class="flex justify-end">
+                <NuxtLink class="rounded-full py-3.5 px-11 bg-black text-white hover:bg-gray-dark" to="/start-checking/2" @click.native="save">Go to step 2</Nuxtlink>
+            </div>
+          
+            <!-- <pre>description: {{ description }}</pre>
+            <pre>store: {{ this.$store.state.listings.listing }}</pre> -->
+        </div>
     </div>
-    <pre>description: {{ description }}</pre>
-    <pre>store: {{ this.$store.state.listings.listing }}</pre>
 </div>
 </template>
 
