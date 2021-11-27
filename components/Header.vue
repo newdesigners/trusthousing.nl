@@ -25,8 +25,8 @@ export default {
   computed: {
     isChecking() {
       return this.$route.params.id;
-    }
-  }
+    },
+  },
 };
 </script>
 

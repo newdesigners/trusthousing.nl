@@ -64,7 +64,7 @@ export default {
         'Room',
         'Studio',
       ],
-    }
+    };
   },
   mounted() {
     this.size = this.$store.state.listings.listing.property.size;
