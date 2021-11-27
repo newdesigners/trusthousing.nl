@@ -3,11 +3,11 @@
     <NuxtLink to="/">
       <figure class="flex">
         <div class="pr-7">
-          Logo here
+          <Logo class="w-20" />
         </div>
         <figcaption>  
-          <p class="font-bold font-suez text-3xl">TrustHousing</p>
-          <p class="text-base">we bring back trust in the student housing market</p>
+          <p class="font-suez text-3xl text-primary">Trust<span class="text-yellow">Housing</span></p>
+          <p class="text-base">we bring back trust in  the student housing market</p>
         </figcaption>
       </figure>
     </NuxtLink>

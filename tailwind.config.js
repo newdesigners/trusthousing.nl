@@ -24,10 +24,12 @@ module.exports = {
         transparent: 'transparent',
         white: '#FFFFFF',
         current: 'currentColor',
-        primary: '#223343',
-        blue: '#9CB3D1',
-        green: '#9FA400',
-        yellow: '#FCBC00',
+        blue: '#446085',
+        primary: {
+          default: '#404468',
+          light: '#E0E2EE'
+        },
+        yellow: '#FFC640',
         gray: {
           DEFAULT: '#E5E5E5',
           dark: '#727A87',
