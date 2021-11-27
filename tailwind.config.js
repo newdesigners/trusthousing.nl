@@ -17,6 +17,7 @@ module.exports = {
         '48%': '48%',
         '49%': '49%',
         'initial' : 'innital',
+        '108': '27rem',
       },
       colors: {
         //Base
