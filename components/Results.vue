@@ -4,3 +4,6 @@
 		<pre>store: {{ this.$store.state.listings.listing }}</pre>
 	</div>
 </template>
+<script>
+export default {};
+</script>

@@ -20,7 +20,8 @@ export default {
 
   // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
-   '@/assets/css/base.css', 
+    '@/assets/css/base.css',
+    '@/assets/css/step-indicator.css',
   ],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins

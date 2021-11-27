@@ -1,0 +1,22 @@
+.step-indicator {
+  position: relative;
+}
+
+.step-indicator[data-name]::after {
+  content: attr(data-name);
+  position: absolute;
+  color: #A0A0A1;
+  bottom: -1.5rem;
+  font-size: 11px;
+  line-height: 15px;
+  font-family: 'Suez One', Arial, sans-serif;
+  width: max-content;
+}
+
+.step-indicator--active[data-name]::after {
+  color: red;
+}
+
+.step-indicator--active figure {
+  background-color: red;
+}
