@@ -8,8 +8,8 @@
       </figure>
       <div class="flex-1">
         <ul class="flex">
-          <li class="pr-6"><NuxtLink to="/">Terms &amp; conditions</NuxtLink></li>
-          <li class="pr-6"><NuxtLink to="/">Privacy &amp; Cookies</NuxtLink></li>
+          <li class="pr-6"><NuxtLink class="hover:font-bold" to="/">Terms &amp; conditions</NuxtLink></li>
+          <li class="pr-6"><NuxtLink class="hover:font-bold" to="/">Privacy &amp; Cookies</NuxtLink></li>
         </ul>
       </div>
       <aside>

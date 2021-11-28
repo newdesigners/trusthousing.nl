@@ -21,8 +21,8 @@
 							<NuxtLink to="/start-checking/1" class="font-suez text-18 underline">Check if the offer is trustworthy</NuxtLink>
 							<p class="gray-text pb-6">We scan the offer for red flags and give rate it with our <u>TrustMark system</u>.</p>
 							<div>
-								<NuxtLink class="rounded-full py-3 px-6 text-primary bg-yellow mr-3.5" to="/start-checking/1">Start TrustMark Scan</NuxtLink>
-								<a class="rounded-full py-3 px-6 text-white bg-blue" href="/">Install browser plugin</a>
+								<NuxtLink class="rounded-full py-3 px-6 text-primary bg-yellow mr-3.5 hover:bg-primary hover:text-white" to="/start-checking/1">Start TrustMark Scan</NuxtLink>
+								<a class="rounded-full py-3 px-6 text-white bg-blue hover:bg-primary" href="/">Install browser plugin</a>
 							</div>
 						</div>
 					</li>
