@@ -8,7 +8,7 @@
       <StepThree v-if="step === '3'" />
     </div>
   </div>
-  <div v-else class="bg-white py-20">
+  <div v-else>
     <Results />
   </div>
 </div>

@@ -12,10 +12,10 @@
       </figure>
     </NuxtLink>
     <ul class="flex text-xl"> 
-      <li class="pr-6"><NuxtLink to="/">Inform yourself</NuxtLink></li>
-      <li class="pr-6"><NuxtLink :class="{ 'font-bold' : isChecking }" to="/start-checking/1">Start Checking</NuxtLink></li>
-      <li class="pr-6"><NuxtLink to="/">Close the Deal</NuxtLink></li>
-      <li><NuxtLink to="/">Why TrustMark?</NuxtLink></li>
+      <li class="pr-6"><NuxtLink class="hover:font-bold" to="/">Inform yourself</NuxtLink></li>
+      <li class="pr-6"><NuxtLink class="hover:font-bold" :class="{ 'font-bold' : isChecking }" to="/start-checking/1">Start Checking</NuxtLink></li>
+      <li class="pr-6"><NuxtLink class="hover:font-bold" to="/">Close the Deal</NuxtLink></li>
+      <li><NuxtLink class="hover:font-bold" to="/">Why TrustMark?</NuxtLink></li>
     </ul>
   </header>
 </template>

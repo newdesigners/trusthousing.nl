@@ -66,6 +66,9 @@ module.exports = {
       width: {
         'initial': 'initial',
       },
+      zIndex: {
+        '-10': '-10',
+       }
     },
     container: {
       padding: {
