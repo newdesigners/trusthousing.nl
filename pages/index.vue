@@ -35,7 +35,7 @@
 					</li>
 				</ul>
 				<figure class="flex justify-end ">
-					<img class="w-5/12 h-auto" src="~/assets/images/illustrations/house.png" alt="house illustration">
+					<img class="w-1/2 h-auto" src="~/assets/images/illustrations/house.png" alt="house illustration">
 				</figure>
 			</article>
 			<article class="bg-white py-20">

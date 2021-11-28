@@ -26,12 +26,13 @@ module.exports = {
         current: 'currentColor',
         blue: '#446085',
         primary: {
-          default: '#404468',
-          light: '#E0E2EE'
+          DEFAULT: '#404468',
+          light: '#E0E2EE',
         },
         yellow: '#FFC640',
+        green: '#BFE0CC',
         gray: {
-          DEFAULT: '#E5E5E5',
+          DEFAULT: '#B8B8B8',
           dark: '#727A87',
           light: '#F6F6F8',
           text: '#6F6F6F',

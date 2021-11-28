@@ -13,7 +13,7 @@
     </div>
     <aside>
       <figure class="w-32">
-        <img class="w-full h-auto object-contain" src="~/assets/images/partners/mosaj.png" alt="Logo of government of safety and justice"/>
+        <img class="w-full h-auto object-contain" src="~/assets/images/logo-government.png" alt="Logo of government of safety and justice"/>
       </figure>
     </aside>
   </footer>

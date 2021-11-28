@@ -22,7 +22,7 @@
 			<label for="assetsFieldHandle" class="block cursor-pointer">
 					<div class="text-center font-suez">
 						<p class="text-center font-suez pb-12">Drop your image here</p>
-						<div class="inline-block rounded-md py-2 px-8 hover:cursor-pointer hover:gray-dark text-white bg-blue">or browse your files</div>
+						<div class="inline-block rounded-md py-2 px-8 hover:cursor-pointer hover:gray-dark text-white bg-primary hover:bg-blue">or browse your files</div>
 					</div>
 			</label>
 			<ul class="mt-4" v-if="this.fileList.length" v-cloak>
@@ -38,7 +38,7 @@
 			</ul>
 			</div>
 			<div class="flex justify-end">
-					<NuxtLink class="rounded-full py-3.5 px-11 bg-black text-white hover:bg-gray-dark" to="/start-checking/3" @click.native="save">Go to step 3</Nuxtlink>
+					<NuxtLink class="rounded-full py-3.5 px-11 bg-blue text-white hover:bg-primary" to="/start-checking/3" @click.native="save">Go to step 3</Nuxtlink>
 			</div>
 		</div>
 		<!-- <pre>description: {{ description }}</pre>

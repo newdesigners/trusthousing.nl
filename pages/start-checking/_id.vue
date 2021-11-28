@@ -1,8 +1,8 @@
 <template>
 <div class="relative">
-  <StepIndicator v-if="step !== 'results'" class="absolute left-1/2 top-0 transform -translate-y-1/2 -translate-x-1/2" />
-  <div v-if="step !== 'results'" class="bg-gray py-20">
+  <div v-if="step !== 'results'" class="bg-primary-light pt-2.5 pb-20">
     <div class="container w-3/4">
+      <StepIndicator v-if="step !== 'results'" class=" mx-auto pb-20" />
       <StepOne v-if="step ==='1'" />
       <StepTwo v-if="step === '2'" />
       <StepThree v-if="step === '3'" />
