@@ -16,6 +16,7 @@
 
 .step-indicator--active[data-name]::after {
   opacity: 1;
+  font-weight: 400;
 }
 
 .step-indicator--active figure svg path {

@@ -12,7 +12,7 @@
           </figcaption>
         </figure>
       </NuxtLink>
-      <ul class="flex text-xl"> 
+      <ul class="flex text-18"> 
         <li class="pr-6"><NuxtLink class="hover:font-bold" to="/inform-yourself">Inform yourself</NuxtLink></li>
         <li class="pr-6"><NuxtLink class="hover:font-bold" :class="{ 'font-bold' : isChecking }" to="/start-checking/1">Start Checking</NuxtLink></li>
         <li class="pr-6"><NuxtLink class="hover:font-bold" to="/">Close the Deal</NuxtLink></li>
