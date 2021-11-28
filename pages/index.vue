@@ -4,22 +4,22 @@
 			<div class="relative container pt-24 w-3/4 mx-auto text-center">
 				<svg class="absolute -left-20" width="148" height="149" viewBox="0 0 148 149" fill="none" xmlns="http://www.w3.org/2000/svg"><circle cx="67" cy="67" r="67" fill="#FFC640"/><circle cx="114.5" cy="115.5" r="33.5" fill="#446085" fill-opacity=".3"/></svg>
 				<h1 class="pb-5">Hello! Are you looking for a place to live in the Netherlands</h1>
-				<p class="px-36 pb-16 gray-text">There are thousands of people being scammed each year in student housing deals. Our mission is to stop this from happening by following these steps.</p>
+				<p class="px-36 pb-16">There are thousands of people being scammed each year in student housing deals. Our mission is to stop this from happening by following these steps.</p>
 			</div>
 			<article class="container w-7/12 mx-auto">
 				<ul class="flex flex-col justify-center mb-5">
 					<li class="flex mb-14">
 						<div class="rounded-full w-14 h-14 bg-white flex items-center justify-center font-suez text-28 mr-6">1</div>
 						<div class="flex-1">
-							<NuxtLink to="/inform-yourself" class="font-suez text-18 underline">Inform yourself</NuxtLink>
+							<NuxtLink to="/inform-yourself" class="font-suez text-18 underline hover:text-blue">Inform yourself</NuxtLink>
 							<p>The Netherlands has their own rules and listings. We help you with your first steps.</p>
 						</div>
 					</li>
 					<li class="flex pb-14">
 						<div class="rounded-full w-14 h-14 bg-white flex items-center justify-center font-suez text-28 mr-6">2</div>
 						<div class="flex-1">
-							<NuxtLink to="/start-checking/1" class="font-suez text-18 underline">Check if the offer is trustworthy</NuxtLink>
-							<p class="gray-text pb-6">We scan the offer for red flags and give rate it with our <u>TrustMark system</u>.</p>
+							<NuxtLink to="/start-checking/1" class="font-suez text-18 underline hover:text-blue">Check if the offer is trustworthy</NuxtLink>
+							<p class="pb-6">We scan the offer for red flags and give rate it with our <u>TrustMark system</u>.</p>
 							<div>
 								<NuxtLink class="rounded-full py-3 px-6 text-primary bg-yellow mr-3.5 hover:bg-primary hover:text-white" to="/start-checking/1">Start TrustMark Scan</NuxtLink>
 								<a class="rounded-full py-3 px-6 text-white bg-blue hover:bg-primary" href="/">Install browser plugin</a>
@@ -29,7 +29,7 @@
 					<li class="flex">
 						<div class="rounded-full w-14 h-14 bg-white flex items-center justify-center font-suez text-28 mr-6">3</div>
 						<div class="flex-1">
-							<NuxtLink to="/" class="font-suez text-18 underline">Found a house? Go close the deal</NuxtLink>
+							<NuxtLink to="/" class="font-suez text-18 underline hover:text-blue">Found a house? Go close the deal</NuxtLink>
 							<p>If you the offer is deemed trustworthy in our system, you can use our platform “Close the deal” to provide a safe environment for your payment and contract details.</p>
 						</div>
 					</li>
