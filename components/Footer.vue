@@ -1,7 +1,9 @@
 <template>
   <footer class="container flex items-center py-9">  
     <figure class="mr-16">
-      <p>logo here</p>
+      <div class="pr-7">
+        <Logo class="w-20" />
+      </div>
     </figure>
     <div class="flex-1">
       <ul class="flex">
@@ -11,7 +13,7 @@
     </div>
     <aside>
       <figure class="w-32">
-        <img class="w-full h-auto object-contain" src="~/assets/images/logo-government.png" alt="Logo of government of safety and justice"/>
+        <img class="w-full h-auto object-contain" src="~/assets/images/partners/mosaj.png" alt="Logo of government of safety and justice"/>
       </figure>
     </aside>
   </footer>

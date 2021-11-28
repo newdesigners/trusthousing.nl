@@ -45,7 +45,7 @@ module.exports = {
         ],
         suez: [
           'Suez One',
-          'sans-serif',
+          'serif',
           'Arial',
         ],
       },
