@@ -5,18 +5,19 @@
 .step-indicator[data-name]::after {
   content: attr(data-name);
   position: absolute;
-  color: #A0A0A1;
+  color: #404468;
   bottom: -1.5rem;
   font-size: 11px;
   line-height: 15px;
   font-family: 'Suez One', Arial, sans-serif;
   width: max-content;
+  opacity: .4;
 }
 
 .step-indicator--active[data-name]::after {
-  color: red;
+  opacity: 1;
 }
 
-.step-indicator--active figure {
-  background-color: red;
+.step-indicator--active figure svg path {
+  opacity: 1;
 }

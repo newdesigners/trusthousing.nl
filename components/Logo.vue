@@ -1,0 +1,3 @@
+<template>
+  <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1582.02 976.18"><path d="M1587.28 511.91v377.32h-386.92V695.15L996.67 1048v440.12h203.69v-410.2h386.92v410.17H1791V511.91Z" transform="translate(-208.99 -511.91)" style="fill:#ffc640"/><path style="fill:#404468" d="m861.77 0-68.83 119.18-5.26 9.07-27.73 48.09H499.01v451.89L298.12 976.18h-4.19V176.34H0V0h861.77z"/></svg>
+</template>

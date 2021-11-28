@@ -31,6 +31,7 @@ body {
   line-height: 27px;
   font-family: 'Roboto';
   font-weight: 400;
+  color: #404468;
   min-height: -webkit-fill-available;
 }
 
@@ -38,6 +39,7 @@ p {
   font-family: 'Roboto', Arial, sans-serif;
   font-size: 18px;
   line-height: 27px;
+  color: #404468;
 }
 
 h1,
@@ -47,7 +49,6 @@ h4,
 h5,
 h6 {
   font-family: 'Suez One', Arial, sans-serif;
-  font-weight: 700;
 }
 
 h1 {

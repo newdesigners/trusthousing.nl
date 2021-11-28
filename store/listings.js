@@ -6,6 +6,8 @@ export const state = () => ({
       price: '',
       size: '',
       type: '',
+      zipcode: '',
+      houseNumber: '',
       utilities: false,
     }
   }
